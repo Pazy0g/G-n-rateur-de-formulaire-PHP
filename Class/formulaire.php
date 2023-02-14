@@ -41,12 +41,7 @@ class Form
     {
         $this->submit = ' <br><button type="' . $submit . '" name="submit">' . $label . '';
     }
-    // public function setRadio(string $radio, string $label)
-    // {
-    //     $this->radio[] = '<input type="radio" name="' . $radio . '" value="' . $radio . '" ' . ($this->radio == $radio ? 'checked' : '') . '>' . $label . '';
-    // }
-
-
+    
     //*Accessor Method
     public function getForm(): string
     {
